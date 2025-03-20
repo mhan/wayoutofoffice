@@ -1,208 +1,504 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US"><head><base href="/"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Leaving Home &ndash; Way Out of Office</title><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="dns-prefetch" href="//s.w.org"><link rel="stylesheet" id="wp-block-library-css" href="inc/css/dist/block-library/style.min.css" type="text/css" media="all"><link rel="stylesheet" id="activello-bootstrap-css" href="contents/ui/activello/assets/css/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="activello-icons-css" href="contents/ui/activello/assets/css/font-awesome.min.css" type="text/css" media="all"><link rel="stylesheet" id="activello-fonts-css" href="//fonts.googleapis.com/css?family=Lora%3A400%2C400italic%2C700%2C700italic%7CMontserrat%3A400%2C700%7CMaven+Pro%3A400%2C700&amp;ver=5.0.2" type="text/css" media="all"><link rel="stylesheet" id="activello-style-css" href="contents/ui/activello/style.css" type="text/css" media="all"><script type="text/javascript" src="inc/js/jquery/jquery.js"></script><script type="text/javascript" src="inc/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript" src="contents/ui/activello/assets/js/vendor/modernizr.min.js"></script><script type="text/javascript" src="contents/ui/activello/assets/js/vendor/bootstrap.min.js"></script><script type="text/javascript" src="contents/ui/activello/assets/js/functions.min.js"></script><style type="text/css"></style><style type="text/css">
-		#social li{
-			display: inline-block;
-		}
-		#social li,
-		#social ul {
-			border: 0!important;
-			list-style: none;
-			padding-left: 0;
-			text-align: center;
-		}
-		#social li a[href*="twitter.com"] .fa:before,
-		.fa-twitter:before {
-			content: "\f099"
-		}
-		#social li a[href*="facebook.com"] .fa:before,
-		.fa-facebook-f:before,
-		.fa-facebook:before {
-			content: "\f09a"
-		}
-		#social li a[href*="github.com"] .fa:before,
-		.fa-github:before {
-			content: "\f09b"
-		}
-		#social li a[href*="/feed"] .fa:before,
-		.fa-rss:before {
-			content: "\f09e"
-		}
-		#social li a[href*="pinterest.com"] .fa:before,
-		.fa-pinterest:before {
-			content: "\f0d2"
-		}
-		#social li a[href*="plus.google.com"] .fa:before,
-		.fa-google-plus:before {
-			content: "\f0d5"
-		}
-		#social li a[href*="linkedin.com"] .fa:before,
-		.fa-linkedin:before {
-			content: "\f0e1"
-		}
-		#social li a[href*="youtube.com"] .fa:before,
-		.fa-youtube:before {
-			content: "\f167"
-		}
-		#social li a[href*="instagram.com"] .fa:before,
-		.fa-instagram:before {
-			content: "\f16d"
-		}
-		#social li a[href*="flickr.com"] .fa:before,
-		.fa-flickr:before {
-			content: "\f16e"
-		}
-		#social li a[href*="tumblr.com"] .fa:before,
-		.fa-tumblr:before {
-			content: "\f173"
-		}
-		#social li a[href*="dribbble.com"] .fa:before,
-		.fa-dribbble:before {
-			content: "\f17d"
-		}
-		#social li a[href*="skype.com"] .fa:before,
-		.fa-skype:before {
-			content: "\f17e"
-		}
-		#social li a[href*="foursquare.com"] .fa:before,
-		.fa-foursquare:before {
-			content: "\f180"
-		}
-		#social li a[href*="vimeo.com"] .fa:before,
-		.fa-vimeo-square:before {
-			content: "\f194"
-		}
-		#social li a[href*="weheartit.com"] .fa:before,
-		.fa-heart:before {
-			content: "\f004"
-		}
-		#social li a[href*="spotify.com"] .fa:before,
-		.fa-spotify:before {
-			content: "\f1bc"
-		}
-		#social li a[href*="soundcloud.com"] .fa:before,
-		.fa-soundcloud:before {
-			content: "\f1be"
-		}
-	</style></head><body class="post-template-default single single-post postid-1 single-format-standard has-sidebar-right">
-<div id="page" class="hfeed site">
+<!doctype html>
+<html class="no-js" lang="en-US">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Leaving Home &ndash; Way Out of Office</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//s.w.org" />
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="inc/css/dist/block-library/style.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="activello-bootstrap-css"
+      href="contents/ui/activello/assets/css/bootstrap.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="activello-icons-css"
+      href="contents/ui/activello/assets/css/font-awesome.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="activello-fonts-css"
+      href="//fonts.googleapis.com/css?family=Lora%3A400%2C400italic%2C700%2C700italic%7CMontserrat%3A400%2C700%7CMaven+Pro%3A400%2C700&amp;ver=5.0.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="activello-style-css"
+      href="contents/ui/activello/style.css"
+      type="text/css"
+      media="all"
+    />
+    <script type="text/javascript" src="inc/js/jquery/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="inc/js/jquery/jquery-migrate.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="contents/ui/activello/assets/js/vendor/modernizr.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="contents/ui/activello/assets/js/vendor/bootstrap.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="contents/ui/activello/assets/js/functions.min.js"
+    ></script>
+    <style type="text/css"></style>
+    <style type="text/css">
+      #social li {
+        display: inline-block;
+      }
+      #social li,
+      #social ul {
+        border: 0 !important;
+        list-style: none;
+        padding-left: 0;
+        text-align: center;
+      }
+      #social li a[href*="twitter.com"] .fa:before,
+      .fa-twitter:before {
+        content: "\f099";
+      }
+      #social li a[href*="facebook.com"] .fa:before,
+      .fa-facebook-f:before,
+      .fa-facebook:before {
+        content: "\f09a";
+      }
+      #social li a[href*="github.com"] .fa:before,
+      .fa-github:before {
+        content: "\f09b";
+      }
+      #social li a[href*="/feed"] .fa:before,
+      .fa-rss:before {
+        content: "\f09e";
+      }
+      #social li a[href*="pinterest.com"] .fa:before,
+      .fa-pinterest:before {
+        content: "\f0d2";
+      }
+      #social li a[href*="plus.google.com"] .fa:before,
+      .fa-google-plus:before {
+        content: "\f0d5";
+      }
+      #social li a[href*="linkedin.com"] .fa:before,
+      .fa-linkedin:before {
+        content: "\f0e1";
+      }
+      #social li a[href*="youtube.com"] .fa:before,
+      .fa-youtube:before {
+        content: "\f167";
+      }
+      #social li a[href*="instagram.com"] .fa:before,
+      .fa-instagram:before {
+        content: "\f16d";
+      }
+      #social li a[href*="flickr.com"] .fa:before,
+      .fa-flickr:before {
+        content: "\f16e";
+      }
+      #social li a[href*="tumblr.com"] .fa:before,
+      .fa-tumblr:before {
+        content: "\f173";
+      }
+      #social li a[href*="dribbble.com"] .fa:before,
+      .fa-dribbble:before {
+        content: "\f17d";
+      }
+      #social li a[href*="skype.com"] .fa:before,
+      .fa-skype:before {
+        content: "\f17e";
+      }
+      #social li a[href*="foursquare.com"] .fa:before,
+      .fa-foursquare:before {
+        content: "\f180";
+      }
+      #social li a[href*="vimeo.com"] .fa:before,
+      .fa-vimeo-square:before {
+        content: "\f194";
+      }
+      #social li a[href*="weheartit.com"] .fa:before,
+      .fa-heart:before {
+        content: "\f004";
+      }
+      #social li a[href*="spotify.com"] .fa:before,
+      .fa-spotify:before {
+        content: "\f1bc";
+      }
+      #social li a[href*="soundcloud.com"] .fa:before,
+      .fa-soundcloud:before {
+        content: "\f1be";
+      }
+    </style>
+  </head>
+  <body
+    class="post-template-default single single-post postid-1 single-format-standard has-sidebar-right"
+  >
+    <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="site-navigation-inner col-sm-12">
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="btn navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul id="menu-top-nav" class="nav navbar-nav">
+                    <li
+                      id="menu-item-20"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"
+                    >
+                      <a title="Home" href="">Home</a>
+                    </li>
+                    <li
+                      id="menu-item-21"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"
+                    >
+                      <a title="Itinerary" href="itinerary/">Itinerary</a>
+                    </li>
+                    <li
+                      id="menu-item-22"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"
+                    >
+                      <a title="About Us" href="about-us/">About Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-search"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+          <div id="logo">
+            <span class="site-name">
+              <a
+                class="navbar-brand"
+                href=""
+                title="Way Out of Office"
+                rel="home"
+                >Way Out of Office</a
+              >
+            </span>
 
-	<header id="masthead" class="site-header" role="banner"><nav class="navbar navbar-default" role="navigation"><div class="container">
-				<div class="row">
-					<div class="site-navigation-inner col-sm-12">
-						<div class="navbar-header">
-							<button type="button" class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						<div class="collapse navbar-collapse navbar-ex1-collapse"><ul id="menu-top-nav" class="nav navbar-nav"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-20"><a title="Home" href="">Home</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Itinerary" href="itinerary/">Itinerary</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a title="About Us" href="about-us/">About Us</a></li>
-</ul></div>						
-						<div class="nav-search">							
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</nav><div class="container">
-			<div id="logo">
-				<span class="site-name">
-																			<a class="navbar-brand" href="" title="Way Out of Office" rel="home">Way Out of Office</a>
-									
-									</span>
+            <div class="tagline">Our year-long adventure around the globe</div>
+          </div>
 
-									<div class="tagline">Our year-long adventure around the globe</div>
-							</div>
+          <div id="line"></div>
+        </div>
+      </header>
+      <div id="content" class="site-content">
+        <div class="top-section"></div>
 
-						<div id="line"></div>
-					</div>
+        <div class="container main-content-area">
+          <div class="cat-title">
+            <ul class="post-categories">
+              <li><a href="category/blog/" rel="category tag">Blog</a></li>
+              <li>
+                <a href="category/north-america/" rel="category tag"
+                  >North America</a
+                >
+              </li>
+            </ul>
+          </div>
 
-	</header><div id="content" class="site-content">
+          <div class="row">
+            <div class="main-content-inner col-sm-12 col-md-8 full-width">
+              <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                  <article
+                    id="post-1"
+                    class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-north-america"
+                  >
+                    <div class="blog-item-wrap">
+                      <div class="post-inner-content">
+                        <header class="entry-header page-header">
+                          <h1 class="entry-title">Leaving Home</h1>
 
-		<div class="top-section">
-					</div>
+                          <div class="entry-meta">
+                            <span class="posted-on"
+                              >Posted on
+                              <a href="2017/09/26/leaving-home/" rel="bookmark"
+                                ><time
+                                  class="entry-date published"
+                                  datetime="2017-09-26T10:16:21+00:00"
+                                  >September 26, 2017</time
+                                ><time
+                                  class="updated"
+                                  datetime="2019-01-05T05:32:20+00:00"
+                                  >January 5, 2019</time
+                                ></a
+                              ></span
+                            >by
+                            <span class="author vcard"
+                              ><a class="url fn n" href="author/hmcmanus/"
+                                >Heather McManus</a
+                              ></span
+                            >
+                          </div>
+                        </header>
+                        <a href="2017/09/26/leaving-home/" title="Leaving Home">
+                          <img
+                            width="1170"
+                            height="550"
+                            src="contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-1170x550.jpg"
+                            class="single-featured wp-post-image"
+                            alt=""
+                            srcset="
+                              contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-1170x550.jpg 1170w,
+                              contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-710x335.jpg   710w
+                            "
+                            sizes="(max-width: 1170px) 100vw, 1170px"
+                        /></a>
 
-		<div class="container main-content-area">
+                        <div class="entry-content">
+                          <p>
+                            The day has arrived! After the longest lead up to a
+                            trip of all time (two years in the making),
+                            it&rsquo;s finally happening. We are way out of
+                            office and officially starting our year-long
+                            adventure around the globe. Here&rsquo;s a bit of a
+                            recap on the lead up to our departure.
+                          </p>
+                          <h2>Leaving Work</h2>
+                          <p>
+                            We&rsquo;d initially planned to work right up until
+                            Mike&rsquo;s departure date at the end of August to
+                            save as much money as possible, but decided to quit
+                            a month earlier to sort out the logistics of
+                            leaving, say goodbye to family and friends, and
+                            enjoy the amazingness that is a Vancouver summer
+                            before taking off. Two words: great decision. We got
+                            to start our year off with (relatively) little
+                            stress and got some seriously quality time in with
+                            our friends, parents and brothers on an awesome
+                            camping road trip through the Rockies. It was also
+                            an excellent reminder of why we definitely want to
+                            come back to this beautiful country!
+                          </p>
+                          <figure
+                            id="attachment_1857"
+                            class="thumbnail wp-caption alignnone"
+                            style="width: 707px"
+                          >
+                            <img
+                              class="wp-image-1857 size-large"
+                              src="/contents/uploads/2017/09/IMG_3710-e1507079963367-1024x696.jpg"
+                              alt=""
+                              width="697"
+                              height="474"
+                              srcset="
+                                contents/uploads/2017/09/IMG_3710-e1507079963367-1024x696.jpg 1024w,
+                                contents/uploads/2017/09/IMG_3710-e1507079963367-300x204.jpg   300w,
+                                contents/uploads/2017/09/IMG_3710-e1507079963367-768x522.jpg   768w
+                              "
+                              sizes="(max-width: 697px) 100vw, 697px"
+                            />
+                            <figcaption class="caption wp-caption-text">
+                              <em
+                                >Last day of work! Best coworkers
+                                ever.&nbsp;</em
+                              >
+                            </figcaption>
+                          </figure>
+                          <p>
+                            Quitting our jobs and saying goodbye to my amazing
+                            coworkers (some of whom I&rsquo;ve been working with
+                            for 10 years!) was hard, but as is often the case,
+                            you never feel more valued as an employee than when
+                            you leave. So after lovely send-offs from our
+                            respective teams, we felt pretty certain that we had
+                            solid references and that someone would probably
+                            want to hire us again when we return.
+                          </p>
+                          <h2>Leaving Our Apartment</h2>
+                          <p>
+                            After the road trip, it was down to business trying
+                            to wrap up our Vancouver life before taking off.
+                            Craigslist was our best&nbsp;friend (and sometimes
+                            our worst enemy) and helped us sell half our
+                            furniture, a bunch of appliances &amp; electronics,
+                            and even our car! We moved what was left into the
+                            cheapest storage we could find (in Surrey,
+                            obviously) and were out of our apartment by the end
+                            of August. It still seems like a lot of stuff!
+                          </p>
+                          <figure
+                            id="attachment_1859"
+                            class="thumbnail wp-caption alignnone"
+                            style="width: 707px"
+                          >
+                            <img
+                              class="size-large wp-image-1859"
+                              src="/contents/uploads/2017/09/IMG_3953-1024x768.jpg"
+                              alt=""
+                              width="697"
+                              height="523"
+                              srcset="
+                                contents/uploads/2017/09/IMG_3953-1024x768.jpg 1024w,
+                                contents/uploads/2017/09/IMG_3953-300x225.jpg   300w,
+                                contents/uploads/2017/09/IMG_3953-768x576.jpg   768w,
+                                contents/uploads/2017/09/IMG_3953-640x480.jpg   640w
+                              "
+                              sizes="(max-width: 697px) 100vw, 697px"
+                            />
+                            <figcaption class="caption wp-caption-text">
+                              <em>Everything we own in 100 square feet.</em>
+                            </figcaption>
+                          </figure>
+                          <h2>Leaving Vancouver</h2>
+                          <figure
+                            id="attachment_1858"
+                            class="thumbnail wp-caption alignright"
+                            style="width: 410px"
+                          >
+                            <img
+                              class="wp-image-1858"
+                              src="/contents/uploads/2017/09/IMG_3940-e1507080346113-691x1024.jpg"
+                              alt=""
+                              width="400"
+                              height="593"
+                              srcset="
+                                contents/uploads/2017/09/IMG_3940-e1507080346113-691x1024.jpg 691w,
+                                contents/uploads/2017/09/IMG_3940-e1507080346113-203x300.jpg  203w,
+                                contents/uploads/2017/09/IMG_3940-e1507080346113-768x1138.jpg 768w
+                              "
+                              sizes="(max-width: 400px) 100vw, 400px"
+                            />
+                            <figcaption class="caption wp-caption-text">
+                              <em>See you in a month, husband!</em>
+                            </figcaption>
+                          </figure>
+                          <p>
+                            The main reason for starting our trip in South Korea
+                            is that Mike is taking a three month language
+                            immersion class to learn&nbsp;Korean (something
+                            he&rsquo;s always wanted to do) at a university in
+                            Seoul. He started class at the&nbsp;beginning of
+                            September so left Vancouver at the end of August a
+                            month before me to get settled. Meanwhile, I was
+                            couch surfing my way through September, hanging out
+                            with family, friends and adorable babies who will
+                            look completely different in a year&rsquo;s time.
+                          </p>
+                          <p>
+                            As someone who has never been without a
+                            &ldquo;home&rdquo; &ndash;&nbsp;always moving from
+                            my parent&rsquo;s house to a dorm room, or from one
+                            apartment to the next &ndash;&nbsp;I was a little
+                            worried about what it would be like to be sans home
+                            base for a month (followed by a year!).&nbsp;But the
+                            generosity of our community never ceases to amaze
+                            me. I had more offers for spare rooms and couches
+                            than I could possibly take advantage of and it made
+                            me realize that we&rsquo;ll never really be
+                            homeless, no matter where we are. People are
+                            innately kind and genuinely want to help you, even
+                            when you barely know them. It was a timely reminder
+                            before heading out on our trip, during which we will
+                            likely need to rely on the kindness of strangers
+                            more than once.
+                          </p>
+                          <p>
+                            Okay, enough with boring logistics and on to the fun
+                            stuff! Stay tuned for more photos and stories from
+                            our travels coming soon.
+                          </p>
+                          <p>
+                            <strong
+                              >First stop:
+                              <a href="/2017/10/10/seoul-first-impressions/"
+                                >Seoul</a
+                              >.</strong
+                            >
+                          </p>
+                          <p>
+                            Keep in touch through the blog comments or
+                            Facebook/Instagram/Whatsapp. We&rsquo;d love to hear
+                            from you!
+                          </p>
+                          <p>&nbsp;</p>
+                        </div>
+                        <div class="entry-footer"></div>
+                      </div>
+                    </div>
+                  </article>
+                  <nav class="navigation post-navigation" role="navigation">
+                    <h1 class="screen-reader-text">Post navigation</h1>
+                    <div class="nav-links">
+                      <div class="nav-next">
+                        <a href="2017/10/10/seoul-first-impressions/" rel="next"
+                          >Seoul: First Impressions
+                          <i class="fa fa-chevron-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </nav>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-						<div class="cat-title">
-				<ul class="post-categories"><li><a href="category/blog/" rel="category tag">Blog</a></li>
-	<li><a href="category/north-america/" rel="category tag">North America</a></li></ul></div>
-									
-			<div class="row">
-				<div class="main-content-inner col-sm-12 col-md-8 full-width">
+    <div id="footer-area">
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info container">
+          <div class="row">
+            <div class="copyright col-md-12">
+              Activello Theme by
+              <a href="http://colorlib.com/" target="_blank">Colorlib</a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-to-top"><i class="fa fa-angle-up"></i></div>
+      </footer>
+    </div>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main"><article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-north-america"><div class="blog-item-wrap">
-		<div class="post-inner-content">
-			<header class="entry-header page-header"><h1 class="entry-title">Leaving Home</h1>
-
-								<div class="entry-meta">
-					<span class="posted-on">Posted on <a href="2017/09/26/leaving-home/" rel="bookmark"><time class="entry-date published" datetime="2017-09-26T10:16:21+00:00">September 26, 2017</time><time class="updated" datetime="2019-01-05T05:32:20+00:00">January 5, 2019</time></a></span>by <span class="author vcard"><a class="url fn n" href="author/hmcmanus/">Heather McManus</a></span>
-					
-				</div>
-							</header><a href="2017/09/26/leaving-home/" title="Leaving Home">
-				<img width="1170" height="550" src="contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-1170x550.jpg" class="single-featured wp-post-image" alt="" srcset="contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-1170x550.jpg 1170w, contents/uploads/2017/10/HeatherMike_Sept2015_RPick017-710x335.jpg 710w" sizes="(max-width: 1170px) 100vw, 1170px"></a>
-			
-			<div class="entry-content">
-
-				<p>The day has arrived! After the longest lead up to a trip of all time (two years in the making), it&rsquo;s finally happening. We are way out of office and officially starting our year-long adventure around the globe. Here&rsquo;s a bit of a recap on the lead up to our departure.</p>
-<h2>Leaving Work</h2>
-<p>We&rsquo;d initially planned to work right up until Mike&rsquo;s departure date at the end of August to save as much money as possible, but decided to quit a month earlier to sort out the logistics of leaving, say goodbye to family and friends, and enjoy the amazingness that is a Vancouver summer before taking off. Two words: great decision. We got to start our year off with (relatively) little stress and got some seriously quality time in with our friends, parents and brothers on an awesome camping road trip through the Rockies. It was also an excellent reminder of why we definitely want to come back to this beautiful country!</p>
-<figure id="attachment_1857" class="thumbnail wp-caption alignnone" style="width: 707px"><img class="wp-image-1857 size-large" src="/contents/uploads/2017/09/IMG_3710-e1507079963367-1024x696.jpg" alt="" width="697" height="474" srcset="contents/uploads/2017/09/IMG_3710-e1507079963367-1024x696.jpg 1024w, contents/uploads/2017/09/IMG_3710-e1507079963367-300x204.jpg 300w, contents/uploads/2017/09/IMG_3710-e1507079963367-768x522.jpg 768w" sizes="(max-width: 697px) 100vw, 697px"><figcaption class="caption wp-caption-text"><em>Last day of work! Best coworkers ever.&nbsp;</em></figcaption></figure><p>Quitting our jobs and saying goodbye to my amazing coworkers (some of whom I&rsquo;ve been working with for 10 years!) was hard, but as is often the case, you never feel more valued as an employee than when you leave. So after lovely send-offs from our respective teams, we felt pretty certain that we had solid references and that someone would probably want to hire us again when we return.</p>
-<h2>Leaving Our Apartment</h2>
-<p>After the road trip, it was down to business trying to wrap up our Vancouver life before taking off. Craigslist was our best&nbsp;friend (and sometimes our worst enemy) and helped us sell half our furniture, a bunch of appliances &amp; electronics, and even our car! We moved what was left into the cheapest storage we could find (in Surrey, obviously) and were out of our apartment by the end of August. It still seems like a lot of stuff!</p>
-<figure id="attachment_1859" class="thumbnail wp-caption alignnone" style="width: 707px"><img class="size-large wp-image-1859" src="/contents/uploads/2017/09/IMG_3953-1024x768.jpg" alt="" width="697" height="523" srcset="contents/uploads/2017/09/IMG_3953-1024x768.jpg 1024w, contents/uploads/2017/09/IMG_3953-300x225.jpg 300w, contents/uploads/2017/09/IMG_3953-768x576.jpg 768w, contents/uploads/2017/09/IMG_3953-640x480.jpg 640w" sizes="(max-width: 697px) 100vw, 697px"><figcaption class="caption wp-caption-text"><em>Everything we own in 100 square feet.</em></figcaption></figure><h2>Leaving Vancouver</h2>
-<figure id="attachment_1858" class="thumbnail wp-caption alignright" style="width: 410px"><img class="wp-image-1858" src="/contents/uploads/2017/09/IMG_3940-e1507080346113-691x1024.jpg" alt="" width="400" height="593" srcset="contents/uploads/2017/09/IMG_3940-e1507080346113-691x1024.jpg 691w, contents/uploads/2017/09/IMG_3940-e1507080346113-203x300.jpg 203w, contents/uploads/2017/09/IMG_3940-e1507080346113-768x1138.jpg 768w" sizes="(max-width: 400px) 100vw, 400px"><figcaption class="caption wp-caption-text"><em>See you in a month, husband!</em></figcaption></figure><p>The main reason for starting our trip in South Korea is that Mike is taking a three month language immersion class to learn&nbsp;Korean (something he&rsquo;s always wanted to do) at a university in Seoul. He started class at the&nbsp;beginning of September so left Vancouver at the end of August a month before me to get settled. Meanwhile, I was couch surfing my way through September, hanging out with family, friends and adorable babies who will look completely different in a year&rsquo;s time.</p>
-<p>As someone who has never been without a &ldquo;home&rdquo; &ndash;&nbsp;always moving from my parent&rsquo;s house to a dorm room, or from one apartment to the next &ndash;&nbsp;I was a little worried about what it would be like to be sans home base for a month (followed by a year!).&nbsp;But the generosity of our community never ceases to amaze me. I had more offers for spare rooms and couches than I could possibly take advantage of and it made me realize that we&rsquo;ll never really be homeless, no matter where we are. People are innately kind and genuinely want to help you, even when you barely know them. It was a timely reminder before heading out on our trip, during which we will likely need to rely on the kindness of strangers more than once.</p>
-<p>Okay, enough with boring logistics and on to the fun stuff! Stay tuned for more photos and stories from our travels coming soon.</p>
-<p><strong>First stop: <a href="/2017/10/10/seoul-first-impressions/">Seoul</a>.</strong></p>
-<p>Keep in touch through the blog comments or Facebook/Instagram/Whatsapp. We&rsquo;d love to hear from you!</p>
-<p>&nbsp;</p>
-				
-								
-			</div>
-			<div class="entry-footer">
-					
-							</div>
-		</div>
-	</div>
-</article><nav class="navigation post-navigation" role="navigation"><h1 class="screen-reader-text">Post navigation</h1>
-		<div class="nav-links">
-			<div class="nav-next"><a href="2017/10/10/seoul-first-impressions/" rel="next">Seoul: First Impressions <i class="fa fa-chevron-right"></i></a></div>			</div>
-			</nav></main></div>
-
-</div>
-
-						</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="footer-area">
-		<footer id="colophon" class="site-footer" role="contentinfo"><div class="site-info container">
-				<div class="row">
-										<div class="copyright col-md-12">
-						Activello						Theme by <a href="http://colorlib.com/" target="_blank">Colorlib</a>					</div>
-				</div>
-			</div>
-			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div>
-		</footer></div>
-
-
-		<script type="text/javascript">
-			jQuery( document ).ready( function( $ ){
-				if ( $( window ).width() >= 767 ){
-					$( '.navbar-nav > li.menu-item > a' ).click( function(){
-						if( $( this ).attr('target') !== '_blank' ){
-							window.location = $( this ).attr( 'href' );
-						}else{
-							var win = window.open($( this ).attr( 'href' ), '_blank');
-							win.focus();
-						}
-					});
-				}
-			});
-		</script><script type="text/javascript" src="contents/ui/activello/assets/js/skip-link-focus-fix.js"></script></body></html>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        if ($(window).width() >= 767) {
+          $(".navbar-nav > li.menu-item > a").click(function () {
+            if ($(this).attr("target") !== "_blank") {
+              window.location = $(this).attr("href");
+            } else {
+              var win = window.open($(this).attr("href"), "_blank");
+              win.focus();
+            }
+          });
+        }
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="contents/ui/activello/assets/js/skip-link-focus-fix.js"
+    ></script>
+  </body>
+</html>
